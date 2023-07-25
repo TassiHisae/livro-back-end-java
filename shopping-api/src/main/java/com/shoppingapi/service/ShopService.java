@@ -1,13 +1,13 @@
 package com.shoppingapi.service;
 
+import com.dto.ProductDTO;
 import com.shoppingapi.client.ProductService;
 import com.shoppingapi.client.UserService;
-import com.shoppingapi.repository.ShopRepository;
 import com.shoppingapi.dto.DTOConverter;
 import com.shoppingapi.dto.ItemDTO;
-import com.dto.ProductDTO;
 import com.shoppingapi.dto.ShopDTO;
 import com.shoppingapi.model.Shop;
+import com.shoppingapi.repository.ShopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

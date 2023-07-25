@@ -3,7 +3,6 @@ package com.shoppingapi.service;
 import com.shoppingapi.dto.DTOConverter;
 import com.shoppingapi.dto.ShopDTO;
 import com.shoppingapi.dto.ShopReportDTO;
-import com.shoppingapi.repository.ReportRepository;
 import com.shoppingapi.repository.ShopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
